@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fluidics</string>
+
+
+    <string name="label_regiter">Ingresa en los siguientes campos los datos personales:</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_ApP">Apellido Paterno</string>
+    <string name="label_ApM">Apellido Materno</string>
+
+    <string name="label_emai">Email</string>
+    <string name="label_pass">Contraseña</string>
+
+
+    <string name="label_inicio">Inicio de Sesión</string>
+    <string name="label_regis">Registrar</string>
+
+
+
+
+    <string name="DescImag">ImagenLogo</string>
+    <string name="title_activity_menu_lateral">MenuLateral</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Green Fluidics</string>
+    <string name="nav_header_subtitle">Hola, Bienvenido</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
