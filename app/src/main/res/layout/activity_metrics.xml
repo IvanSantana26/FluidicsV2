@@ -9,26 +9,30 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            >
 
             <include
                 layout="@layout/card_metrics"
-                android:layout_width="170dp">
+                android:layout_width="213dp"
+                android:layout_height="100dp"></include>
 
-            </include>
+            <include
+                layout="@layout/card_temp"
+                android:layout_width="229dp"
+                android:layout_height="100dp"></include>
+
+            <include
+                layout="@layout/card_dioxi"
+                android:layout_width="229dp"
+                android:layout_height="100dp"></include>
+
+            <include
+                layout="@layout/card_oxigeno"
+                android:layout_width="229dp"
+                android:layout_height="100dp"></include>
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
     </TableLayout>
 
 </RelativeLayout>

@@ -26,10 +26,6 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        logIn.setOnClickListener((view) -> {
-            Intent i = new Intent(Login.this, GraphicActivity.class);
-            startActivity(i);
 
-        });
     }
 }
