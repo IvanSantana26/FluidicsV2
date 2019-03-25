@@ -25,14 +25,23 @@ public class UserInteractor {
     public void seedUsuers(CBDone cb) {
         Single.fromCallable(
                 () -> {
+                    UserDao userDao = DBFluidics.db.userDao();
+
                     Usuario u1 = new Usuario();
-                    u1.setNombre("Miguel");
+                    Usuario u2 = new Usuario();
+                    Usuario u3 = new Usuario();
+                    Usuario u4 = new Usuario();
+                    Usuario u5= new Usuario();
+                    Usuario u6 = new Usuario();
+
+                    u1.setNombre("Carlos");
                     u1.setApellido_materno("Flores");
                     u1.setApellido_paterno("Colin");
                     u1.setEmail("maiktmp@gmail.com");
                     u1.setPassword("14280487");
-                    UserDao userDao = DBFluidics.db.userDao();
+
                     userDao.upsert(u1);
+
                     return u1;
                 })
                 .subscribeOn(Schedulers.io())

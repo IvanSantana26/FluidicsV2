@@ -15,8 +15,6 @@
     <string name="label_regis">Registrar</string>
 
 
-
-
     <string name="DescImag">ImagenLogo</string>
     <string name="title_activity_menu_lateral">MenuLateral</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -25,4 +23,5 @@
     <string name="nav_header_subtitle">Hola, Bienvenido</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="electrical">Electricidad</string>
 </resources>

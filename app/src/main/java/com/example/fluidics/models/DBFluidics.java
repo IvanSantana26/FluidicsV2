@@ -8,7 +8,7 @@ import com.example.fluidics.models.entities.Usuario;
 
 
 @Database(entities = {
-        Usuario.class
+        Usuario.class,
 },
         version = 2,
         exportSchema = false
