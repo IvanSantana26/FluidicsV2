@@ -3,36 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TableLayout
+    <GridView
+        android:id="@+id/gvCards"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
-
-            <include
-                layout="@layout/card_metrics"
-                android:layout_width="213dp"
-                android:layout_height="100dp"></include>
-
-            <include
-                layout="@layout/card_temp"
-                android:layout_width="229dp"
-                android:layout_height="100dp"></include>
-
-            <include
-                layout="@layout/card_dioxi"
-                android:layout_width="229dp"
-                android:layout_height="100dp"></include>
-
-            <include
-                layout="@layout/card_oxigeno"
-                android:layout_width="229dp"
-                android:layout_height="100dp"></include>
-        </TableRow>
-
-    </TableLayout>
-
+        android:layout_height="match_parent"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:padding="5dp"
+        android:verticalSpacing="10dp"></GridView>
 </RelativeLayout>
