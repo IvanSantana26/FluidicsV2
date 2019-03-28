@@ -31,7 +31,7 @@ public class UserInteractor {
                     Usuario u2 = new Usuario();
                     Usuario u3 = new Usuario();
                     Usuario u4 = new Usuario();
-                    Usuario u5= new Usuario();
+                    Usuario u5 = new Usuario();
                     Usuario u6 = new Usuario();
 
 

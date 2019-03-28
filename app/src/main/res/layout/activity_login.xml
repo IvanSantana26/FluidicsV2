@@ -26,7 +26,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/LecUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_orange_light"
@@ -34,13 +34,13 @@
         android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="ivan@green.mx"
+        android:text="ivan@green.com"
         android:textColor="#FFFF"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/LecPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_orange_light"
@@ -48,10 +48,10 @@
         android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="12345"
+        android:text="123"
         android:textColor="#FFFF"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/LecUsuario" />
 
     <Button
         android:id="@+id/btnLoggin"
@@ -65,7 +65,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnRegistro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/LecPassword" />
 
     <Button
         android:id="@+id/btnRegistro"
@@ -89,7 +89,7 @@
         android:layout_marginTop="72dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/DescImag"
-        app:layout_constraintEnd_toStartOf="@+id/editText"
+        app:layout_constraintEnd_toStartOf="@+id/LecUsuario"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"

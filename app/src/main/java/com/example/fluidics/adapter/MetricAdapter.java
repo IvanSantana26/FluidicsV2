@@ -9,6 +9,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.fluidics.Desc_energia;
+import com.example.fluidics.DescripcionDiox;
+import com.example.fluidics.DescripcionO;
+import com.example.fluidics.DescripcionTemp;
 import com.example.fluidics.R;
 import com.example.fluidics.Registro;
 import com.example.fluidics.element.cardMetric;
@@ -50,20 +54,28 @@ public class MetricAdapter extends BaseAdapter {
         cardImage.setImageResource(currentCard.getImageUrl());
         cardText.setText(currentCard.getName());
         convertView.setOnClickListener(view -> {
+
             if (cardMetric.cardMetrics[position].getId() == 1) {
-                System.out.println("Card de Energia");
-                Intent registro = new Intent(context, Registro.class);
-                context.startActivity(registro);
+                System.out.println("card de energia");
+                Intent desc_energia = new Intent(context, Desc_energia.class);
+                context.startActivity(desc_energia);
             }
             if (cardMetric.cardMetrics[position].getId() == 2) {
-                System.out.println("Card de Temperatura");
+                System.out.println("card de temperatura");
+                Intent descripcion_temp = new Intent(context, DescripcionTemp.class);
+                context.startActivity(descripcion_temp);
             }
             if (cardMetric.cardMetrics[position].getId() == 3) {
-                System.out.println("Card de Dioxido");
+                System.out.println("card de Dioxido");
+                Intent descripcion_diox = new Intent(context, DescripcionDiox.class);
+                context.startActivity(descripcion_diox);
             }
             if (cardMetric.cardMetrics[position].getId() == 4) {
-                System.out.println("Card de Oxigeno");
+                System.out.println("card de Oxigeno");
+                Intent descripcion_o = new Intent(context, DescripcionO.class);
+                context.startActivity(descripcion_o);
             }
+
         });
         return convertView;
     }
