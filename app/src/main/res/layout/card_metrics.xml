@@ -3,23 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item_root"
-    android:layout_width="100dp"
-    android:layout_height="100dp"
+    android:layout_width="124dp"
+    android:layout_height="200dp"
     android:layout_gravity="center"
     android:layout_margin="5dp"
 
     app:cardElevation="2dp">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
         android:background="@color/black_light"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/ivMetric"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:layout_marginTop="5dp"
             android:src="@drawable/brand_icon" />
 
@@ -27,12 +28,14 @@
             android:id="@+id/tvMetric"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
             android:background="@color/black_light"
             android:text="@string/electrical"
             android:textAlignment="center"
-            android:textColor="@color/withe" />
+            android:textColor="#ffffbb33" />
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

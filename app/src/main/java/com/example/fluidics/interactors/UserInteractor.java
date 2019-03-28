@@ -34,11 +34,6 @@ public class UserInteractor {
                     Usuario u5= new Usuario();
                     Usuario u6 = new Usuario();
 
-                    u1.setNombre("Carlos");
-                    u1.setApellido_materno("Flores");
-                    u1.setApellido_paterno("Colin");
-                    u1.setEmail("maiktmp@gmail.com");
-                    u1.setPassword("14280487");
 
                     userDao.upsert(u1);
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fluidics</string>
+    <string name="app_name">Green Fluidics</string>
 
 
     <string name="label_regiter">Ingresa en los siguientes campos los datos personales:</string>
@@ -27,4 +27,6 @@
     <string name="temperature">Temperatura</string>
     <string name="oxigen">Oxigeno</string>
     <string name="dioxi">Dioxido</string>
+    <string name="watt">15°</string>
+
 </resources>

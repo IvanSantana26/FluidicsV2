@@ -14,10 +14,11 @@ public class cardMetric {
     }
 
     public static cardMetric[] cardMetrics = {
-            new cardMetric(1, "Temperatura", R.drawable.termometro),
-            new cardMetric(2, "Dioxido", R.drawable.nube),
-            new cardMetric(3, "Oxígeno", R.drawable.viento),
-            new cardMetric(4, "Energia", R.drawable.brand_icon),
+            new cardMetric(1, "Energia", R.drawable.brand_icon),
+            new cardMetric(2, "Temperatura", R.drawable.termometro),
+            new cardMetric(3, "Dioxido", R.drawable.nube),
+            new cardMetric(4, "Oxígeno", R.drawable.viento),
+
     };
 
     public static cardMetric getById(int id) {
