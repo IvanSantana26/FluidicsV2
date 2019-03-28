@@ -1,6 +1,7 @@
 package com.example.fluidics.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.fluidics.R;
+import com.example.fluidics.Registro;
 import com.example.fluidics.element.cardMetric;
 
 public class MetricAdapter extends BaseAdapter {
@@ -47,7 +49,22 @@ public class MetricAdapter extends BaseAdapter {
 
         cardImage.setImageResource(currentCard.getImageUrl());
         cardText.setText(currentCard.getName());
-
+        convertView.setOnClickListener(view -> {
+            if (cardMetric.cardMetrics[position].getId() == 1) {
+                System.out.println("Card de Energia");
+                Intent registro = new Intent(context, Registro.class);
+                context.startActivity(registro);
+            }
+            if (cardMetric.cardMetrics[position].getId() == 2) {
+                System.out.println("Card de Temperatura");
+            }
+            if (cardMetric.cardMetrics[position].getId() == 3) {
+                System.out.println("Card de Dioxido");
+            }
+            if (cardMetric.cardMetrics[position].getId() == 4) {
+                System.out.println("Card de Oxigeno");
+            }
+        });
         return convertView;
     }
 }
