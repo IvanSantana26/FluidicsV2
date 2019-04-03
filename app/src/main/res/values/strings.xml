@@ -27,6 +27,13 @@
     <string name="temperature">Temperatura</string>
     <string name="oxigen">Oxigeno</string>
     <string name="dioxi">Dioxido</string>
-    <string name="watt">15°</string>
+    <string name="temp">19°</string>
+    <string name="dio">20gr</string>
+    <string name="oxi">35gr</string>
+    <string name="watt">100w</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

@@ -12,7 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +25,7 @@
         <activity android:name=".MetricsActivity" />
         <activity android:name=".Desc_energia" />
         <activity android:name=".DescripcionTemp" />
-    <activity android:name=".DescripcionDiox"/>
+        <activity android:name=".DescripcionDiox" />
     </application>
 
 </manifest>
