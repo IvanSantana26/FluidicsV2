@@ -16,20 +16,22 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="8dp"
-        android:textAlignment="center"
         android:text="@string/electrical"
-        android:textColor="#ffffbb33"
-        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="168dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="@string/watt"
@@ -42,6 +44,7 @@
     <ListView
         android:id="@+id/lstDatos"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

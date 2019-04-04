@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Green Fluidics</string>
-
-
+    <string name="wakeme">#WEMAKEITFLOW</string>
+    <string name="inic">Iniciar sesión</string>
+    <string name="cambio">Tú generas el cambio</string>
     <string name="label_regiter">Ingresa en los siguientes campos los datos personales:</string>
     <string name="label_name">Nombre</string>
     <string name="label_ApP">Apellido Paterno</string>
@@ -11,11 +12,11 @@
     <string name="label_pass">Contraseña</string>
 
 
-    <string name="label_inicio">Inicio de Sesión</string>
-    <string name="label_regis">Registrar</string>
+    <string name="label_inicio">Ingresar</string>
+    <string name="label_regis">Registrarse</string>
 
-
-    <string name="DescImag">ImagenLogo</string>
+    <string name="derechos">Todos los derechos reservados, GREENfluidics® 2019. </string>
+    <string name="DescImag">I</string>
     <string name="title_activity_menu_lateral">MenuLateral</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

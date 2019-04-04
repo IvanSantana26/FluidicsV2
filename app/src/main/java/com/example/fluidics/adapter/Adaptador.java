@@ -47,9 +47,11 @@ public class Adaptador extends BaseAdapter {
         ImageView imagen = (ImageView)vista.findViewById(R.id.imagenlogo);
         TextView titulo = (TextView)vista.findViewById(R.id.textDia);
         TextView fecha = (TextView)vista.findViewById(R.id.textFecha);
+        TextView cantidad = (TextView)vista.findViewById(R.id.textCantidad);
 
       titulo.setText(ListaObjetos.get(position).getDia().toString());
       fecha.setText(ListaObjetos.get(position).getFecha().toString());
+      cantidad.setText(ListaObjetos.get(position).getCantidad().toString());
       imagen.setImageResource(ListaObjetos.get(position).getImagen());
 
       return vista;
