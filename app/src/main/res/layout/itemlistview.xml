@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,33 +15,35 @@
         <ImageView
             android:id="@+id/imagenlogo"
             android:layout_width="165dp"
-            android:layout_height="95dp"
+            android:layout_height="65dp"
             android:layout_weight="1"
-            app:srcCompat="@color/colorPrimaryDark" />
+             />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+
             android:orientation="vertical">
+
+
 
             <TextView
                 android:id="@+id/textDia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:text="Lunes"
-                android:textSize="25sp"
-
-                tools:textColor="@color/colorPrimary" />
+                android:textColor="#ffff"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/textFecha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Fecha"
-                android:textSize="20sp"
+                android:textSize="12sp"
                 android:textColor="@android:color/holo_orange_light" />
+
 
             <TextView
                 android:id="@+id/textCantidad"
@@ -48,8 +51,8 @@
                 android:layout_height="44dp"
                 android:text="Cantidad             "
                 android:textAlignment="textEnd"
-                android:textColor="@color/colorPrimary"
-                android:textSize="25sp" />
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="15sp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

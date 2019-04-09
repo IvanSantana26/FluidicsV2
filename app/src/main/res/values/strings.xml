@@ -32,6 +32,12 @@
     <string name="dio">20gr</string>
     <string name="oxi">35gr</string>
     <string name="watt">100w</string>
+    <string name="linea">______________________________________</string>
+    <string name="ultimo">Ultimos 7 días:</string>
+    <string name="conoce_energia">Conoce en tiempo real cuanta energia estas generando de manera sustentable</string>
+    <string name="conoce_tempe">Conoce en tiempo real cuanta temperatura se encuentra en el panel</string>
+    <string name="conoce_dioxido">Conoce en tiempo real cuanto dioxido hay en el ambiente </string>
+    <string name="conoce_oxi">Conoce en tiempo real cuanto oxigeno estas generando de manera sustentable</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -47,12 +47,12 @@ public class MetricAdapter extends BaseAdapter {
                     getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.card_metrics, parent, false);
         }
-        ImageView cardImage = (ImageView) convertView.findViewById(R.id.ivMetric);
-        TextView cardText = (TextView) convertView.findViewById(R.id.tvMetric);
+      ImageView cardImage = (ImageView) convertView.findViewById(R.id.ivMetric);
+       // TextView cardText = (TextView) convertView.findViewById(R.id.tvMetric);
         cardMetric currentCard = cardMetric.getCardMetrics()[position];
 
-        cardImage.setImageResource(currentCard.getImageUrl());
-        cardText.setText(currentCard.getName());
+       cardImage.setImageResource(currentCard.getImageUrl());
+     //   cardText.setText(currentCard.getName());
         convertView.setOnClickListener(view -> {
 
             if (cardMetric.cardMetrics[position].getId() == 1) {
