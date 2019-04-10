@@ -1,8 +1,9 @@
 package com.example.fluidics;
 
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ListView;
 
 import com.example.fluidics.adapter.Adaptador;
@@ -18,7 +19,6 @@ public class Desc_energia extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desc_energia);
-
         ListaDatos = (ListView) findViewById(R.id.lstDatos);
 
         Lista = new ArrayList<Datos>();
@@ -34,8 +34,18 @@ public class Desc_energia extends AppCompatActivity {
         Adaptador miadaptador = new Adaptador(getApplicationContext(), Lista);
 
         ListaDatos.setAdapter(miadaptador);
+        setUpToolbar();
     }
 
-
+    public void setUpToolbar() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(v->{
+            startActivity(new Intent(this, MetricsActivity.class));
+            finish();
+        });
+    }
 }
 
