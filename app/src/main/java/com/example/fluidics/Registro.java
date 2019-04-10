@@ -12,9 +12,10 @@ public class Registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
         setupActionBar();
     }
-    private void setupActionBar(){
-        ActionBar actionBar=getSupportActionBar();
-        if (actionBar != null){
+
+    private void setupActionBar() {
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
     }

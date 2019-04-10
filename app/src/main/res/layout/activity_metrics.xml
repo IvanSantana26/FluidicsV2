@@ -4,23 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000"
     android:weightSum="10"
     >
 
     <GridView
         android:id="@+id/gvCards"
-        android:layout_weight="15"
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginTop="50dp"
+        android:columnWidth="0dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="1"
+        android:padding="1dp"
+        android:verticalSpacing="0dp">
 
-
-        android:layout_marginTop="0dp"
-        android:columnWidth="100dp"
-        android:horizontalSpacing="10dp"
-        android:numColumns="2"
-        android:padding="45dp"
-        android:verticalSpacing="100dp"></GridView>
+    </GridView>
 
     <ImageView
         android:id="@+id/imageView5"
