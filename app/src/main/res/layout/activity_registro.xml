@@ -8,8 +8,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000">
 
         <TextView
             android:id="@+id/textView9"
@@ -41,7 +42,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/editTextnombre"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -71,10 +72,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.127"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText3" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextnombre" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/editTextapp"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -103,10 +104,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.129"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText5" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextapp" />
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/editTextapm"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -135,10 +136,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.102"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextapm" />
 
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/editTextemail"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
 
@@ -168,10 +169,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.115"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText7" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextemail" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/editTextpass"
             android:layout_width="290dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -188,21 +189,23 @@
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnregist"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
+            android:background="#111"
+
             android:text="@string/label_regis"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.925"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText4"
             app:layout_constraintVertical_bias="0.0" />
     </LinearLayout>
 </ScrollView>

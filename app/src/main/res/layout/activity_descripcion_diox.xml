@@ -103,7 +103,7 @@
         <ListView
             android:id="@+id/lstDatos"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="400dp"
             android:background="#000"
             tools:layout_editor_absoluteX="300dp"
             tools:layout_editor_absoluteY="300dp" />

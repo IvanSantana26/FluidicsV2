@@ -13,7 +13,7 @@ import com.example.fluidics.models.entities.Usuario;
 import java.util.ArrayList;
 import java.util.List;
 public class Login extends AppCompatActivity {
-    Button registro;
+    Button btnRegistro;
     Button logIn;
     List<Usuario> usuarios;
 
@@ -34,18 +34,25 @@ public class Login extends AppCompatActivity {
         u1.setEmail("ivan@green.com");
         u1.setPassword("123");
 
+        u2.setId(2);
+        u2.setNombre("Juan");
+        u2.setApellido_paterno("Arriaga");
+        u2.setApellido_materno("Viveros");
+        u2.setEmail("juan.garcia@greenfluidics.com");
+        u2.setPassword("123");
+
         usuarios=new ArrayList<>();
         usuarios.add(u1);
         setContentView(R.layout.activity_login);
 
-        registro = (Button) findViewById(R.id.btnRegistro);
+        btnRegistro = (Button) findViewById(R.id.btnRegistro);
         logIn = (Button) findViewById(R.id.btnLoggin);
 
-        registro.setOnClickListener(new View.OnClickListener() {
+        btnRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent registro = new Intent(Login.this, Registro.class);
-                startActivity(registro);
+                Intent intentregistro = new Intent(Login.this, Registro.class);
+                Login.this.startActivity(intentregistro);
             }
         });
 

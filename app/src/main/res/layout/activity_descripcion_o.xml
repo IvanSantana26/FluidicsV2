@@ -102,7 +102,7 @@
         <ListView
             android:id="@+id/lstDatos"
             android:layout_width="match_parent"
-            android:layout_height="435dp"
+            android:layout_height="400dp"
 
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="7dp" />
