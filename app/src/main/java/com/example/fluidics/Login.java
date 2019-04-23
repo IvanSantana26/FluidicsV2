@@ -55,7 +55,7 @@ public class Login extends AppCompatActivity {
                 Login.this.startActivity(intentregistro);
             }
         });
-
+/*
         logIn.setOnClickListener(view -> {
             EditText LecUsuario = (EditText) findViewById(R.id.LecUsuario);
             EditText LecPassword = (EditText) findViewById(R.id.LecPassword);
@@ -78,5 +78,5 @@ public class Login extends AppCompatActivity {
 
         });
 
-    }
-}
+    }*/
+}}
