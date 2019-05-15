@@ -9,7 +9,7 @@ import java.util.Map;
 public class RegisterRequest extends StringRequest {
 
 
-    private static final String REGISTER_REQUEST_URL = "http://192.168.100.45:8080/Register.php";
+    private static final String REGISTER_REQUEST_URL = "http://192.168.100.45:8080/Registro/carrito.php";
     private Map<String, String> parame;
 
 

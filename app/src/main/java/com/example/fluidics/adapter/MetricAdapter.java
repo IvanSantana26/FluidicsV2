@@ -75,7 +75,11 @@ public class MetricAdapter extends BaseAdapter {
                 Intent descripcion_o = new Intent(context, DescripcionO.class);
                 context.startActivity(descripcion_o);
             }
-
+       /*     if (cardMetric.cardMetrics[position].getId() == 5) {
+                System.out.println("Pagina");
+                Intent descripcion_o = new Intent(context, DescripcionO.class);
+                context.startActivity(descripcion_o);
+            }*/
         });
         return convertView;
     }

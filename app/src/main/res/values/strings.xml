@@ -10,7 +10,7 @@
 
     <string name="label_emai">Email</string>
     <string name="label_pass">Contraseña</string>
-
+    <string name="registro">Registro</string>
 
     <string name="label_inicio">Ingresar</string>
     <string name="label_regis">Registrarse</string>

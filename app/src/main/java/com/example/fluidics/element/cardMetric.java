@@ -18,7 +18,7 @@ public class cardMetric {
             new cardMetric(2, "Temperatura", R.drawable.imagetempe),
             new cardMetric(3, "Dioxido", R.drawable.coimagen),
             new cardMetric(4, "Oxígeno", R.drawable.oxige),
-
+         //   new cardMetric(5, "PaginaWeb", R.drawable.oxige),
     };
 
     public static cardMetric getById(int id) {

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class Login extends AppCompatActivity {
     Button btnRegistro;
-    Button logIn;
+    Button btnLoggin;
     List<Usuario> usuarios;
 
     @Override
@@ -31,8 +31,8 @@ public class Login extends AppCompatActivity {
         u1.setNombre("Ivan");
         u1.setApellido_paterno("Santana");
         u1.setApellido_materno("Santana");
-        u1.setEmail("ivan@green.com");
-        u1.setPassword("123");
+        u1.setEmail("famex@greenfluidics.com");
+        u1.setPassword("2019");
 
         u2.setId(2);
         u2.setNombre("Juan");
@@ -45,8 +45,8 @@ public class Login extends AppCompatActivity {
         usuarios.add(u1);
         setContentView(R.layout.activity_login);
 
-        btnRegistro = (Button) findViewById(R.id.btnRegistro);
-        logIn = (Button) findViewById(R.id.btnLoggin);
+        btnRegistro = (Button) findViewById(R.id.link_regist);
+        btnLoggin = (Button) findViewById(R.id.btnLoggin);
 
         btnRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,10 +55,10 @@ public class Login extends AppCompatActivity {
                 Login.this.startActivity(intentregistro);
             }
         });
-/*
-        logIn.setOnClickListener(view -> {
-            EditText LecUsuario = (EditText) findViewById(R.id.LecUsuario);
-            EditText LecPassword = (EditText) findViewById(R.id.LecPassword);
+
+        btnLoggin.setOnClickListener(view -> {
+            EditText LecUsuario = (EditText) findViewById(R.id.email);
+            EditText LecPassword = (EditText) findViewById(R.id.password);
             System.out.println(LecUsuario.getText());
             for (Usuario usuario : usuarios) {
                 if(usuario.getEmail().contentEquals(LecUsuario.getText())){
@@ -78,5 +78,5 @@ public class Login extends AppCompatActivity {
 
         });
 
-    }*/
-}}
+    }
+}
